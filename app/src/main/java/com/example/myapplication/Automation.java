@@ -1,4 +1,14 @@
 package com.example.myapplication;
 
-public class Automation {
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class Automation extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_automation);
+    }
 }

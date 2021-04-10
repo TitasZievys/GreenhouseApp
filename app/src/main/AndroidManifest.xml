@@ -9,8 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Valves" android:label="Valves" android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity" android:label="Greenhouse">
+        <activity
+            android:name=".Automation"
+            android:label="Automation"
+            android:parentActivityName=".Main"></activity>
+        <activity
+            android:name=".Valves"
+            android:label="Valves"
+            android:parentActivityName=".Main" />
+        <activity
+            android:name=".Main"
+            android:label="Greenhouse">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

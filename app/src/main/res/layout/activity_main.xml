@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Main">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="371dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
@@ -16,5 +16,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:onClick="LaunchAutomationPage"
+        android:text="@string/AutomationButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
