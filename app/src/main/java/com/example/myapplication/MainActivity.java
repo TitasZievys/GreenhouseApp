@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void LaunchAutomationPage(View view){                                               //This method opens the main valve page
-        Intent i  = new Intent(this, Valves.class);
+        Intent i  = new Intent(this, Automation.class);
         startActivity(i);
 
 
