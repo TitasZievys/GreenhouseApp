@@ -18,10 +18,39 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/button4"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:onClick="LaunchNotificationsPage"
+        android:text="@string/notificationsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:onClick="LaunchSystemActivationPage"
+        android:text="@string/systemActivationButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:onClick="LaunchDataPage"
+        android:text="@string/dataButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
         android:id="@+id/button"
         android:layout_width="371dp"
         android:layout_height="60dp"
-        android:layout_marginTop="8dp"
         android:onClick="LaunchAutomationPage"
         android:text="@string/AutomationButton"
         app:layout_constraintEnd_toEndOf="parent"

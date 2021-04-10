@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <activity android:name=".Data"></activity>
+        <activity android:name=".SystemActivation" />
+        <activity android:name=".Notifications" />
         <activity
             android:name=".Automation"
             android:label="Automation"
-            android:parentActivityName=".Main"></activity>
+            android:parentActivityName=".Main" />
         <activity
             android:name=".Valves"
             android:label="Valves"

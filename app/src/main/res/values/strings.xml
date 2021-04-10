@@ -2,4 +2,7 @@
     <string name="app_name">My Application</string>
     <string name="ValvesButton">Valves</string>
     <string name="AutomationButton">Automation</string>
+    <string name="notificationsButton">Notifications</string>
+    <string name="systemActivationButton">System Activation</string>
+    <string name="dataButton">Monthly/daily data</string>
 </resources>
