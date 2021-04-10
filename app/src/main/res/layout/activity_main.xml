@@ -8,51 +8,56 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="371dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="460dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="8dp"
         android:onClick="LaunchValvesPage"
         android:text="@string/ValvesButton"
+        app:backgroundTint="#207E0F"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="371dp"
-        android:layout_height="60dp"
+        android:layout_width="460dp"
+        android:layout_height="66dp"
         android:onClick="LaunchNotificationsPage"
         android:text="@string/notificationsButton"
+        app:backgroundTint="#207E0F"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="371dp"
-        android:layout_height="60dp"
+        android:layout_width="460dp"
+        android:layout_height="66dp"
         android:onClick="LaunchSystemActivationPage"
         android:text="@string/systemActivationButton"
+        app:backgroundTint="#207E0F"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="371dp"
-        android:layout_height="60dp"
+        android:layout_width="460dp"
+        android:layout_height="66dp"
         android:onClick="LaunchDataPage"
         android:text="@string/dataButton"
+        app:backgroundTint="#207E0F"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="371dp"
-        android:layout_height="60dp"
+        android:layout_width="460dp"
+        android:layout_height="66dp"
         android:onClick="LaunchAutomationPage"
         android:text="@string/AutomationButton"
+        app:backgroundTint="#207E0F"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
