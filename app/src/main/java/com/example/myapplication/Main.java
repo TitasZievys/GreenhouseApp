@@ -27,17 +27,17 @@ public class Main extends AppCompatActivity {
     }
 
     public void LaunchNotificationsPage(View view) {                                               //This method opens the main valve page
-        Intent i = new Intent(this, Automation.class);
+        Intent i = new Intent(this, Notifications.class);
         startActivity(i);
     }
 
     public void LaunchSystemActivationPage(View view) {                                               //This method opens the main valve page
-        Intent i = new Intent(this, Automation.class);
+        Intent i = new Intent(this, SystemActivation.class);
         startActivity(i);
     }
 
     public void LaunchDataPage(View view) {                                               //This method opens the main valve page
-        Intent i = new Intent(this, Automation.class);
+        Intent i = new Intent(this, Data.class);
         startActivity(i);
     }
 
